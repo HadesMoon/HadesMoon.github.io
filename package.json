@@ -1,0 +1,28 @@
+{
+  "name": "hadesmoon.github.io",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadesMoon/HadesMoon.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "vuepress"
+  ],
+  "author": "hadesmoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadesMoon/HadesMoon.github.io/issues"
+  },
+  "homepage": "https://HadesMoon.github.io",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
