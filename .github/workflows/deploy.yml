@@ -19,7 +19,7 @@ jobs:
     - name: Deploy HadesMoon.github.io/master
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: master
         PUBLISH_DIR: docs/.vuepress/dist
       with:
