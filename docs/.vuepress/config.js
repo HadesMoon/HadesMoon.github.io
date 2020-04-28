@@ -23,7 +23,7 @@ module.exports = {
         ]
       },
       //格式三：跳转至外部网页，需http/https前缀
-      { text: 'Github', link: 'https://github.com/dwanda' }
+      { text: 'Github', link: 'https://github.com/HadesMoon' }
     ]
   }
 }
